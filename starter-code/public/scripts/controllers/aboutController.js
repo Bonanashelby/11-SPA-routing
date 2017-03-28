@@ -3,7 +3,13 @@
 (function(module) {
   const aboutController = {};
 
-  // TODO: Define a function that hides all main section elements, and then reveals just the #about section:
+  aboutController.init = (function() {
+    console.log('Inside of our aboutController.init()');
+    $('#articles').hide();
+    $('#about').show();
+  })
+
+  // TODO: Define a function that hides all main section elements, and then reveals just the #about section: We will use this function as the eventHandler in our routes.js
 
 
   module.aboutController = aboutController;
