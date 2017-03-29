@@ -4,7 +4,6 @@
   const aboutController = {};
 
   aboutController.init = (function() {
-    console.log('Inside of our aboutController.init()');
     $('#articles').hide();
     $('#about').show();
   })

@@ -1,6 +1,5 @@
 'use strict';
 
-console.log('Hello World!');
 page('/', articleController.init);
 page('/about', aboutController.init);
 
